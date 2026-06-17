@@ -1,0 +1,15 @@
+[package]
+name = "port-killer"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pk"
+path = "src/main.rs"
+
+[dependencies]
+ratatui = "0.29.0"
+crossterm = "0.29.0"
+sysinfo = "0.36.0"
+netstat2 = "0.11.2"
+anyhow = "1"
